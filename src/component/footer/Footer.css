@@ -54,8 +54,8 @@ footer a{
 }
 
 @media only screen and (max-width: 600px){
-    #footer{
-        width: 120%;
+    footer{
+        width: 100%;
     }
     .permalinks{
         flex-direction: column;
