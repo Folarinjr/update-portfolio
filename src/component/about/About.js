@@ -1,7 +1,5 @@
 import React from 'react'
 import './About.css'
-import {FaAward, FaUsers} from 'react-icons/fa'
-import {VscFolderLibrary} from 'react-icons/vsc'
 
 
 const About = () => {
