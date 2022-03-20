@@ -2,7 +2,6 @@ import React from 'react'
 import {BsLinkedin} from 'react-icons/bs'
 import {MdOutlineMail} from 'react-icons/md'
 import {BsGithub, BsTwitter} from 'react-icons/bs'
-import {BsInstagram} from 'react-icons/bs'
 
 const HeaderSocials = () => {
   return (
