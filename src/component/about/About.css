@@ -39,6 +39,10 @@
 
 .about__text{
     margin-bottom: 2rem;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
 }
 
 @media only screen and (max-width: 1024px) {
