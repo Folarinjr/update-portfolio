@@ -49,6 +49,13 @@ const data = [
     title: 'Food Mataz',
     github: 'https://github.com/Folarinjr/food-mataz.git',
     demo: 'https://food-mataz.netlify.app'
+  },
+  {
+    id: 7,
+    image: IMG2,
+    title: 'FeedBack App',
+    github: 'https://github.com/Folarinjr/feedBack-app.git',
+    demo: 'https://feedback-applicationn.netlify.app'
   }
 ]
 
