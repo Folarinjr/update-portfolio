@@ -33,8 +33,8 @@ const data = [
     id: 4,
     image: IMG4,
     title: 'Nexter Project',
-    github: 'https://github.com/Folarinjr/nexter.git',
-    demo: 'https://nexter-hotel-project.netlify.app'
+    github: 'https://github.com/Folarinjr/nexter-react.git',
+    demo: 'https://nexter-landing-page-react-project.netlify.app'
   },
   {
     id: 5,
