@@ -6,6 +6,8 @@ import IMG3 from '../../assets/portfolio3.webp'
 import IMG4 from '../../assets/portfolio4.webp'
 import IMG5 from '../../assets/portfolio5.webp'
 import IMG6 from '../../assets/portfolio6.webp'
+import IMG7 from '../../assets/exterior_3.jpeg'
+import IMG8 from '../../assets/interior_9.jpeg'
 
 const data = [
   {
@@ -52,10 +54,17 @@ const data = [
   },
   {
     id: 7,
-    image: IMG2,
+    image: IMG7,
     title: 'FeedBack App',
     github: 'https://github.com/Folarinjr/feedBack-app.git',
     demo: 'https://feedback-applicationn.netlify.app'
+  },
+  {
+    id: 8,
+    image: IMG8,
+    title: 'E-commerce App',
+    github: 'https://github.com/Folarinjr/market-house-sale-rent.git',
+    demo: 'https://market-house-sale-rent.vercel.app/'
   }
 ]
 
