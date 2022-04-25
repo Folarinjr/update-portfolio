@@ -8,6 +8,7 @@ import IMG5 from '../../assets/portfolio5.webp'
 import IMG6 from '../../assets/portfolio6.webp'
 import IMG7 from '../../assets/exterior_3.jpeg'
 import IMG8 from '../../assets/interior_9.jpeg'
+import IMG9 from '../../assets/IMG9.png'
 
 const data = [
   {
@@ -65,6 +66,13 @@ const data = [
     title: 'E-commerce App',
     github: 'https://github.com/Folarinjr/market-house-sale-rent.git',
     demo: 'https://market-house-sale-rent.vercel.app/'
+  },
+  {
+    id: 9,
+    image: IMG9,
+    title: 'Password Generator App',
+    github: 'https://github.com/Folarinjr/password-generator.git',
+    demo: 'https://generator-passkey.netlify.app/'
   }
 ]
 
