@@ -4,6 +4,7 @@ import {AiFillLinkedin, AiOutlineTwitter} from 'react-icons/ai'
 import {BsInstagram} from 'react-icons/bs'
 
 const Footer = () => {
+  const year = new Date().getFullYear();
   return (
     <footer id='footer'>
       <a href="#home" rel="noreferrer" className="footer__logo">FOLARIN</a>
@@ -23,7 +24,7 @@ const Footer = () => {
       </div>
 
       <div className="footer__copyright">
-        <small>&copy;2022 FOLARIN. All rights reserved.</small>
+        <small>&copy;{year} FOLARIN. All rights reserved.</small>
       </div>
     </footer>
   )
