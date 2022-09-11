@@ -17,7 +17,7 @@ const About = () => {
           </p>
 
           <p className='about__text'>
-            I enjoy using codes to solve problems and creating web-based applications.
+            I enjoy using codes to solve problems and creating web-based and mobile applications.
             I create beautiful websites and online applications with pixel-perfect user interfaces.
           </p>
 
