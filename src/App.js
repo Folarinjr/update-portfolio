@@ -7,10 +7,12 @@ import Contact from './component/contact/Contact'
 import Footer from './component/footer/Footer'
 
 
+
+
 function App() {
   return (
     <>
-     <Header/>
+     <Header data-aos='fade-in'/>
      <About/>
      <Experience/>
      <Portfolio/>
