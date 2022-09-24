@@ -8,11 +8,6 @@ header {
     position: relative;
     text-align: center;
     height: 100%;
-    /*background-color: red;*/
-    -webkit-animation-name: example;
-            animation-name: example;
-    -webkit-animation-duration: 4s;
-            animation-duration: 4s;
 }
 
 /**the two buttons**/
@@ -43,37 +38,6 @@ header {
     height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
-}
-
-
-
-@-webkit-keyframes example {
-    0% {
-        opacity: 0;
-    }
-    25% {
-        opacity: .4;
-    }
-    50% {
-        opacity: .6;
-    }
-    75% {
-        opacity: .8;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-
-
-@keyframes example {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
 }
 
 
