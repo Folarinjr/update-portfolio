@@ -2,6 +2,42 @@
     display: grid;
     grid-template-columns: 50%;
     justify-content: center;
+    animation: moveInLeft 4s ease-in;
+}
+.none{
+    opacity: 0;
+}
+@-webkit-keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-6.5rem);
+                transform: translateX(-6.5rem);
+    }
+    50% {
+        -webkit-transform: translateX(.6rem) /*rotate(180deg)*/;
+                transform: translateX(.6rem) /*rotate(180deg)*/;
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+                transform: translateX(0);
+    }
+}
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-6.5rem);
+                transform: translateX(-6.5rem);
+    }
+    50% {
+        -webkit-transform: translateX(.6rem) /*rotate(180deg)*/;
+                transform: translateX(.6rem) /*rotate(180deg)*/;
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+                transform: translateX(0);
+    }
 }
 /**To get direct children ">"**/
 
@@ -30,8 +66,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 2rem;
-    -moz-column-gap: 2rem;
-         column-gap: 2rem;
+    -webkit-column-gap: 2rem;
+            column-gap: 2rem;
 }
 
 .experience__details {
