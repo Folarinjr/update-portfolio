@@ -86,7 +86,7 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>KOTLIN(JETPACK COMPOSE)</h4>
+                <h4>KOTLIN</h4>
               </div>
             </article>
 
